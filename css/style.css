@@ -190,3 +190,118 @@ button {
     cursor:pointer;
     margin-right:6px;
 }
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.main-menu__ul li a:hover {
+    color:#7E7E82;
+    transform: translateX(10px);
+    transition-duration: 0.1s;
+}
+
+.main-menu__ul li:nth-child(1):hover::before {
+    content:"";
+    position:absolute;
+    width:4px;
+    height:32px;
+    background-color:#41F6D7;
+    border-radius:0 20px 20px 0;
+    left: 0;
+    top: 103px;
+    opacity: 0;
+    animation: ani 0.3s forwards;
+}
+
+.main-menu__ul li:nth-child(2):hover::before {
+    content:"";
+    position:absolute;
+    width:4px;
+    height:32px;
+    background-color:#41F6D7;
+    border-radius:0 20px 20px 0;
+    left: 0;
+    top: 158px;
+    opacity: 0;
+    animation: ani 0.3s forwards;
+}
+
+.main-menu__ul li:nth-child(3):hover::before {
+    content:"";
+    position:absolute;
+    width:4px;
+    height:32px;
+    background-color:#41F6D7;
+    border-radius:0 20px 20px 0;
+    left: 0;
+    top: 210px;
+    opacity: 0;
+    animation: ani 0.3s forwards;
+}
+
+.main-menu__ul li:nth-child(4):hover::before {
+    content:"";
+    position:absolute;
+    width:4px;
+    height:32px;
+    background-color:#41F6D7;
+    border-radius:0 20px 20px 0;
+    left: 0;
+    top: 265px;
+    opacity: 0;
+    animation: ani 0.3s forwards;
+}
+
+.main-menu__ul li:nth-child(5):hover::before {
+    content:"";
+    position:absolute;
+    width:4px;
+    height:32px;
+    background-color:#41F6D7;
+    border-radius:0 20px 20px 0;
+    left: 0;
+    top: 318px;
+    opacity: 0;
+    animation: ani 0.3s forwards;
+}
+
+.main-menu__ul li:nth-child(6):hover::before {
+    content:"";
+    position:absolute;
+    width:4px;
+    height:32px;
+    background-color:#41F6D7;
+    border-radius:0 20px 20px 0;
+    left: 0;
+    top: 372px;
+    opacity: 0;
+    animation: ani 0.3s forwards;
+}
+
+.main-menu__ul li:nth-child(7):hover::before {
+    content:"";
+    position:absolute;
+    width:4px;
+    height:32px;
+    background-color:#41F6D7;
+    border-radius:0 20px 20px 0;
+    left: 0;
+    top: 426px;
+    opacity: 0;
+    animation: ani 0.3s forwards;
+}
+
+.main-menu__ul li:nth-child(8):hover::before {
+    content:"";
+    position:absolute;
+    width:4px;
+    height:32px;
+    background-color:#41F6D7;
+    border-radius:0 20px 20px 0;
+    left: 0;
+    top: 480px;
+    opacity: 0;
+    animation: ani 0.3s forwards;
+}
