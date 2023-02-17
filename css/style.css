@@ -191,10 +191,52 @@ button {
     margin-right:6px;
 }
 
-@keyframes ani {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+/* Анимации */
+
+@keyframes minmax {
+    0% {transform: scale(0.5);}
+    100% {transform: scale(120%);}
 }
+ @keyframes ani {
+     0% {opacity: 0;}
+     100% {opacity: 1;}
+ }
+
+.footer-mail:hover {
+    transform: scale(110%);
+    transition-duration:0.1s;
+    transform-origin: center;
+}
+
+.footer-phone-number:hover {
+    transform: scale(105%);
+    transition-duration:0.1s;
+    transform-origin: center;
+
+}
+
+.footer-language > button:hover {
+    animation: minmax 0.4s forwards;
+}
+
+
+.footer-language .active {
+    color:#7E7E82;
+}
+
+
+.header button:hover {
+    cursor: pointer;
+    transition-duration:0.4s;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+.footer-menu button:hover {
+    cursor: pointer;
+    opacity:0.6;
+    transition-duration:0.4s;
+}
+
+/* Выделение пунктов меню при наведении */
 
 .main-menu__ul li a:hover {
     color:#7E7E82;
